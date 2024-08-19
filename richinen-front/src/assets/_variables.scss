@@ -1,0 +1,49 @@
+// Font Families
+$accentFont: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+$plainFont: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+// General Page Colors
+$accentColor: rgb(200, 216, 253);
+$darkAccent: rgb(36, 63, 152);
+$bgColorDark: #242424;
+
+$bgColorLight: #ffffff;
+$accentColorLight: #213547;
+$darkAccentLight: #213547;
+
+// Nav Colors
+$navLinkColor: rgb(33, 117, 244);
+
+// Banner Styles
+$homeNavImg: url("../assets/testRamen.png");
+$menuNavImg: url("../assets/testRamen.png");
+$contactNavImg: url("../assets/testRamen.png");
+
+// Menu Item Styles
+
+
+// Contact Form Styles
+
+
+// Scrollbar
+@mixin custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: $bgColorDark;
+    border-radius: 0.4rem;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $darkAccent;
+    border-radius: 0.4rem;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $accentColor;
+  }}
